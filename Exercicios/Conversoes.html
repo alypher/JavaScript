@@ -33,8 +33,15 @@
     <script> /* JS */
        // alert('Termo de acesso: *****')
        // confirm('De acordo com os termos de acesso?')
-       var nome = prompt('Qual seu nome?')
-       alert(nome)
+       var n1 = Number.parseInt(window.prompt('Digite N1:')) // string -> num int
+       var n2 = Number.parseInt(window.prompt('Digite N2:')) // string -> num int
+       // var n1 = Number(window.prompt('Digite N1:')) // string -> num alternativa
+       var soma = n1 + n2
+       soma.toString() // num -> string
+       // String(n) - num -> string alternativa 
+       alert('A soma e:' + soma)
+       // alert('A soma e: ${soma}') // alternativa para concatenacao de strings placeholder
+    
     </script>
 
 </body>
