@@ -1,0 +1,10 @@
+footer#page-footer a {
+    width: 100%;
+    max-height: 5%;
+    border-top: 3pt solid #2874A6;
+    background-color: white;
+   font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,17 @@
+header#page-header{
+    width: 100%;
+    height: 40pt;
+    border-bottom: 3pt solid #2874A6;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+}
+
+img#logo{
+    width: 80pt;
+    margin-left: 10pt;
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    display: flex;
+    justify-content: flex-start;
+}

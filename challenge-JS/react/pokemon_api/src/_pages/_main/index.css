@@ -1,0 +1,65 @@
+main#page-main{
+    max-width: 100em;
+    padding: 1em;
+    background: lightgreen;
+}
+
+main#page-main article{
+    background: white;
+    border: 1pt solid #2874A6;
+    border-radius: 5pt;
+    padding: 10pt;
+    margin-bottom: 10pt;
+    transition: 0.2s;
+}
+
+main#page-main article:hover{
+    background: #2874A6;
+    color: white;
+}
+
+
+main#page-main article h1{
+    font-family: sans-serif;
+    font-size: 15pt;
+    text-transform: uppercase;
+    color: white;
+}
+
+main#page-main article p{
+    font-size: 10pt;
+    margin-top: 5pt;
+}
+
+main#page-main article a{
+    width: 100%;
+    height: 100%;
+    padding: 0% 85% 3% 0%;
+}
+
+main#page-main a:hover{
+    color: white;
+}
+
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10pt;
+}
+
+.pagination button{
+  padding: 5pt;
+  border-radius: 2pt;
+  background: #2874A6;
+  color: white;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.pagination button[disabled]{
+    display: none;
+}
+
+.pagination button:hover{
+    opacity: 0.7;
+}

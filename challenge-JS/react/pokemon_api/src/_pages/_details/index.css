@@ -1,0 +1,55 @@
+main#page-datail{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 1% 30% 25% 30%;
+    background: lightgreen;
+    text-align: center;
+}
+
+main#page-datail h2{
+    background: white;
+    text-align: left;
+    border: 1pt solid #2874A6;
+    border-radius: 5pt;
+    padding: 1%;
+    margin-bottom: 1%;
+    transition: 0.2s;
+}
+
+main#page-datail h2:hover{
+    background: #2874A6;
+    color: white;
+}
+
+.return{
+    text-align: center;
+}
+
+.return h1{
+    padding: 5pt;
+    border-radius: 2pt;
+    margin-top: 5pt;
+    margin-bottom: 2pt;
+    background: #2874A6;
+    color: white;
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.return a{
+       width: 100%;
+       height: 100%;
+}
+
+.return h1[disabled]{
+    display: none;
+}
+
+.return h1:hover{
+    opacity: 0.7;
+}
