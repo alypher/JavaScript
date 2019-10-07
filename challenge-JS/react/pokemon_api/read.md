@@ -3,14 +3,6 @@ Author:
 - Name:     Alypher Mansano
 - E-mail:   alypher@gmail.com
 
-Requires:
-
-package - react-router-dom
-
-Code on source project:
-
-- yarn add react-router-dom
-
 Objetivo do projeto:
 
     Implementar um catálogo de Pokémons em React utilizando a API http://pokeapi.co
